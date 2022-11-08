@@ -1,0 +1,5 @@
+arthas:
+  http-port: 8653
+  telnet-port: 3658
+  session-timeout: 1800
+  ip: 0.0.0.0

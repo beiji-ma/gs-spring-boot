@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+			<arthas.version>3.6.4</arthas.version>
 	</properties>
 
 	<dependencies>
@@ -38,6 +39,15 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- end::tests[] -->
+			<dependency>
+
+                        <groupId>com.taobao.arthas</groupId>
+
+                        <artifactId>arthas-spring-boot-starter</artifactId>
+
+                <version>${arthas.version}</version>
+
+        </dependency>
 	</dependencies>
 
 	<build>
